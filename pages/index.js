@@ -19,7 +19,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  console.log("allPostsData", allPostsData);
   return (
     <Layout home>
       <Head>
@@ -33,7 +32,7 @@ export default function Home({ allPostsData }) {
           (This is a sample website - you’ll be building a site like this on{" "}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
-        <TestDiv />
+        {/* <TestDiv /> */}
       </section>
 
       {/* Add this <section> tag below the existing <section> tag */}
